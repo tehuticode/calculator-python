@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Compound Interest </title>
+</head>
+
+<body>
+    <h1> Compound Interest Calculator</h1>
+    <form  method="POST" action="/">
+      <label for="intial_deposit">Initial Deposits</label><br>
+      <input type="number" id="intial_deposit" name="intial_deposit" step="100" required>
+
+      <label for="interest_rate">Interest</label><br>
+      <input type="number" id="interest_rate" name="interest_rate" step="0.01" required>
+
+      <label for="contribution">Contribution</label><br>
+      <input type="number" id="contribution"  name="contribution" step="10" required>
+
+      
+
+      <label for="compound_type">Compounding Type</label><br>
+      <select id="compound_type" name="compound_type">
+        <option value="monthly">Monthly</option>
+        <option value="annualy">Annualy</option>
+
+        
+      </select>
+
+      <label for="time_period_years">Time period in Years</label><br>
+      <input type="number" id="time_period_years" name="time_period_years" step="1" required>
+
+      <input type="submit" value="Calculate">
+
+
+         
+    </form>
+</body>
+      
+  </html>
